@@ -13,10 +13,10 @@ function Header(){
 
   return (
     <Stack>
-      <Circle position="absolute" bg="blue.100" opacity="0.1" w="225px" h="225px" alignSelf="flex-end"/>
-
+      <Circle position="absolute" bg="blue.100" opacity="0.1" w="225px" h="225px" alignSelf="flex-end" mt={9} mr={5}/>
+      
       {/* config por si la pantalla es small */}
-      <Flex mt={2} direction={isNotSmallerScreen ? "row" : "columns"} spacing="200px" p={isNotSmallerScreen ? "32" : "0"} alignSelf="flex-start">
+      <Flex direction={isNotSmallerScreen ? "row" : "columns"} spacing="200px" p={isNotSmallerScreen ? "32" : "0"} alignSelf="flex-start">
 
         {/* caja estilizada q contiene el texto */}
         <Box mt={isNotSmallerScreen ? "0" : 16} align='flex-start'>
@@ -24,9 +24,10 @@ function Header(){
           {/* en este texto agrego un gradiente 'to right' con tres colores. bgClip ->adhiere el gradiente al texto */}
           <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">Gerardo Garcia</Text>
           {/* descripción */}
-          <Text fontSize="1xl" color={isDark ? "gray.200" : "gray.500"}>Bienvenido a mi portfolio. He realizado este portfolio usando la liberería Chakra-UI de React</Text>
+          <Text fontSize="2xl" color={isDark ? "gray.200" : "gray.500"}>Bienvenido a mi portfolio. He realizado este portfolio usando la liberería Chakra-UI de React. Bienvenido a mi portfolio. He realizado este portfolio usando la liberería Chakra-UI de React</Text>
           <Button mt={8} colorScheme="blue" onClick={() => window.open("https://www.linkedin.com/in/gera-garcia")}>Here me</Button>
         </Box>
+        <Image ml={5} mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"} borderRadius='full' backgroundColor="transparent" boxShadow="lg" boxSize="225px" src="https://bit.ly/imag_portfolio_glitch"></Image>
       </Flex>
     </Stack>
     
