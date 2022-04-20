@@ -21,7 +21,7 @@ function App() {
       
         <Spacer></Spacer>
 
-        <IconButton ml={2} icon={<FaLinkedin />} isRound="true" onClick={toggleColorMode}></IconButton>
+        <IconButton ml={2} icon={<FaLinkedin />} isRound="true" onClick={toggleColorMode}> </IconButton>
 
         <IconButton ml={2} icon={<FaInstagram />} isRound="true" onClick={toggleColorMode}></IconButton>
 
