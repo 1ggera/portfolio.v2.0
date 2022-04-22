@@ -6,6 +6,7 @@ import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Social from "./components/Social";
+import Footer from "./components/Social";
 
 function App() {
 
