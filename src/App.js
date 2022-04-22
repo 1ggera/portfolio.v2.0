@@ -16,7 +16,7 @@ function App() {
   return (
     <VStack p={7}>
       <Flex w="100%">
-        <Heading ml="1" pb="2" size="xl" fontWeight='semibold' color="cyan.500" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>
+        <Heading pb="2" size="xl" fontWeight='semibold' color="cyan.500" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>
           GG Digital
         </Heading>
       
@@ -28,7 +28,7 @@ function App() {
 
           <IconButton ml={2} icon={<FaGithub />} isRound="true" onClick={toggleColorMode}></IconButton>
 
-          <IconButton ml={6} icon={ isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
+          <IconButton ml={2} icon={ isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
         
       </Flex>
         <Header></Header>

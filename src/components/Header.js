@@ -9,14 +9,14 @@ function Header(){
   const isDark = colorMode === "dark";
 
   //usa la consulta de medios para chekear si se renderizará en una small screen o más grande. Establecemos el ancho mínimo
-  const [ isNotSmallerScreen ] = useMediaQuery("(min-width:550px)");
+  const [ isNotSmallerScreen ] = useMediaQuery("(min-width:600px)");
 
   return (
     <Stack>
-      <Circle mt={14}  position="absolute" bg="blue.100" opacity="0.1" w="225px" h="225px" alignSelf="flex-end"/>
+      <Circle mt={14} mr={5} position="absolute" bg="blue.100" opacity="0.1" w="225px" h="225px" alignSelf="flex-end"/>
       
       {/* config por si la pantalla es small */}
-      <Flex direction={isNotSmallerScreen ? "row" : "columns"} spacing="200px" p={isNotSmallerScreen ? "32" : "0"} alignSelf="flex-start">
+      <Flex direction={isNotSmallerScreen ? "row" : "column"} spacing="200px" p={isNotSmallerScreen ? "32" : "0"} alignSelf="flex-start">
 
         {/* caja estilizada q contiene el texto */}
         <Box mt={isNotSmallerScreen ? "0" : 16} align='flex-start'>
@@ -31,7 +31,7 @@ function Header(){
           <Button mt={8} colorScheme="blue" onClick={() => window.open("https://www.linkedin.com/in/gera-garcia")}>Here me</Button>
         </Box>
 
-        <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"} borderRadius='full' backgroundColor="transparent" boxShadow="lg" boxSize="225px" src="https://bit.ly/imag_portfolio_glitch">
+        <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"} borderRadius='full' backgroundColor="transparent" boxShadow="lg" boxSize="225px" src="https://bit.ly/imag_portfolio_glitch" zIndex={2}>
         </Image>
       </Flex>
 
