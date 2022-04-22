@@ -23,10 +23,10 @@ function Header(){
           <Text fontSize="5xl" fontWeight="semibold">Hi, i am</Text>
 
           {/* en este texto agrego un gradiente 'to right' con tres colores. bgClip ->adhiere el gradiente al texto */}
-          <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>Gerardo Garcia</Text>
+          <Text fontSize="5xl" fontWeight="bold" color="cyan.500" bgGradient="linear(to-r, cyan.400, blue.600, purple.800)" bgClip='text'>Gerardo Garcia</Text>
 
           {/* descripción */}
-          <Text color={isDark ? "gray.200" : "gray.500"}>Bienvenido a mi portfolio. He realizado este portfolio usando la liberería Chakra-UI de React. Bienvenido a mi portfolio. He realizado este portfolio usando la liberería Chakra-UI de React</Text>
+          <Text color={isDark ? "gray.200" : "gray.500"} fontSize="2xl">Bienvenido a mi portfolio. He realizado este portfolio usando la liberería Chakra-UI de React. Bienvenido a mi portfolio. He realizado este portfolio usando la liberería Chakra-UI de React</Text>
 
           <Button mt={8} colorScheme="blue" onClick={() => window.open("https://www.linkedin.com/in/gera-garcia")}>Here me</Button>
         </Box>
