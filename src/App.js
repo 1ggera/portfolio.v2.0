@@ -32,6 +32,8 @@ function App() {
         <Header></Header>
         <Social></Social>
         <Profile></Profile>
+        <Spacer></Spacer>
+        <Footer></Footer>
     </VStack>
   );
 }
