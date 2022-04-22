@@ -6,7 +6,7 @@ import gerag from '../assets/img/gerag.png'
 function Footer(){
   return (
     <HStack>
-      <Image boxSize="50" src={gerag} isRound="true" p={1} alt='Gera Garcia'/>
+      <Image boxSize="50" src={gerag} isRound="true" p={2} alt='Gera Garcia'/>
       
       <Text position={"center"}>GG Digital<br/>© 2022</Text>
     

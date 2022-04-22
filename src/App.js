@@ -32,11 +32,12 @@ function App() {
         
       </Flex>
         <Header></Header>
+        <Spacer ></Spacer>
         <Social></Social>
         <Profile></Profile>
         <Spacer></Spacer>
         <Footer></Footer>
-        <Spacer></Spacer>
+        
     </VStack>
   );
 }
