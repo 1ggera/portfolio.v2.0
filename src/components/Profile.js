@@ -10,7 +10,7 @@ function Profile(){
 
   return (
     <Flex direction={isNotSmallerScreen ? "row" : "column"} w="100%" maxWidth={{ base:"100vh", md: "130vh", lg:"130vh", xl: "130h" }} ml={"1"}>
-      <Box alignSelf="center" px="6" py="16">
+      <Box alignSelf="center" px="10" py="16">
         <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
           +2
         </Heading>

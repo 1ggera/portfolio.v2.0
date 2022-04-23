@@ -26,6 +26,14 @@
   mr: margin right
   mb: margin bottom
 
+  git add .
+  git commit -m "mensje de commit"
+  git push origin main
+    sino funciona
+  git pull
+    y
+  git push origin main --force
+  
   
 
  */
