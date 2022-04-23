@@ -16,7 +16,7 @@ function Profile(){
         </Heading>
         <Text fontSize="2xl" color="gray.400">Years of experience</Text>
       </Box>
-      <Box alignSelf="center" px="24" py="16">
+      <Box alignSelf="center" px="14" py="16">
         <Text fontWeight="bold" fontSize="2xl">Student of Programming of Informatics Systems and developer, specialised in movile first design.
         </Text>
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8}>
