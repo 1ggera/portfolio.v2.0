@@ -6,11 +6,15 @@ import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Social from "./components/Social";
+<<<<<<< HEAD
 import Footer from "./components/Footer";
 // <<<<<<< HEAD
 // =======
 // import Footer from "./components/Social";
 // >>>>>>> 9540da3 (carga de imagenes y config footer)
+=======
+import Footer from "./components/Social";
+>>>>>>> 9540da3354582730028ff703c02260da04a0fef5
 
 function App() {
 
@@ -41,7 +45,10 @@ function App() {
         <Profile></Profile>
         <Spacer></Spacer>
         <Footer></Footer>
+<<<<<<< HEAD
         
+=======
+>>>>>>> 9540da3354582730028ff703c02260da04a0fef5
     </VStack>
   );
 }
