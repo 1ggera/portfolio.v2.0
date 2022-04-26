@@ -26,7 +26,7 @@ function Header(){
           <Text fontSize="5xl" fontWeight="bold" color="cyan.500" bgGradient="linear(to-r, cyan.400, blue.600, purple.800)" bgClip='text'>Gerardo Garcia</Text>
 
           {/* descripción */}
-          <Text color={isDark ? "gray.200" : "gray.500"} fontSize="2xl">Bienvenido a mi portfolio.<br/>Escribeme si necesitas alguna herramienta digital. <br/>Estaré encantado de conocerte</Text>
+          <Text color={isDark ? "gray.200" : "gray.500"} fontSize="2xl">Welcome user. You are not a robot.<br/>Escribeme si necesitas alguna herramienta digital. <br/></Text>
 
           <Button mt={8} colorScheme="blue" onClick={() => window.open("https://www.linkedin.com/in/gera-garcia")}>Hire me</Button>
         </Box>
