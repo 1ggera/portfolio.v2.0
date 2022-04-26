@@ -37,7 +37,7 @@ function Profile(){
           <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
           <Icon as={DiWebplatform} color="white" h="24" w="24" p="4"></Icon>
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              Web platforms
+              Digital Platforms
             </Text>
           </Flex>
         </Flex>
