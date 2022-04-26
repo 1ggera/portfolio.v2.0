@@ -1,6 +1,6 @@
 import { IconButton } from "@chakra-ui/button";
 import { Flex, VStack, Heading, Spacer} from "@chakra-ui/layout";
-
+//
 import { useColorMode } from "@chakra-ui/color-mode";
 import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import Header from "./components/Header";

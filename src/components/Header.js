@@ -8,7 +8,6 @@ function Header(){
   const { colorMode } = useColorMode();
   const isDark = colorMode === "dark";
 
-  //usa la consulta de medios para chekear si se renderizará en una small screen o más grande. Establecemos el ancho mínimo
   const [ isNotSmallerScreen ] = useMediaQuery("(min-width:600px)");
 
   return (
