@@ -14,7 +14,6 @@
     yarn add @chakra-ui/icons
 
   En un componente VStack permite ordenar verticalmente 
-    
 
   Checkear las importaciones de los screens.
   Checkear desde donde son importadas los metodos de las funciones de estilo.
@@ -28,11 +27,15 @@
 
   git add .
   git commit -m "mensje de commit"
-  git push origin main
+  git push origin main _ok_funciona_
     sino funciona
   git pull
     y
+  git push origin main _ok_funciona_
+    o 
   git push origin main --force
+
+    
   
   
 
