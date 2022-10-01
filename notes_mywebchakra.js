@@ -35,8 +35,10 @@
     o 
   git push origin main --force
 
+  git push heroku master
   
-  
-  
+Para iniciarlo
+  Ingresar en carpeta mywebchakra
+  npm start
 
  */
