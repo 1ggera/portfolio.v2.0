@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
+import Footer from "./components/Social";
 
 function App() {
 
