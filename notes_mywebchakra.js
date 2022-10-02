@@ -48,5 +48,6 @@ Botones del nav q no uso
 
   <IconButton ml={2} icon={<FaGithub />} isRound="true" onClick={toggleColorMode}></IconButton> }
 
-
+Para iniciar netlify
+  yarn build
  */
