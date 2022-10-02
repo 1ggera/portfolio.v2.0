@@ -35,8 +35,8 @@
     o 
   git push origin main --force
 
-    
-  
+  Solo haga esto si sabe al 100% que sus cambios locales deben enviarse al maestro remoto.
+    git push -f origin master
   
 
  */
