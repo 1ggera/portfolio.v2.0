@@ -10,32 +10,35 @@ function Profile(){
 
   return (
     <Flex direction={isNotSmallerScreen ? "row" : "column"} w="100%" maxWidth={{ base:"100vh", md: "130vh", lg:"130vh", xl: "130h" }} ml={"1"}>
-      <Box alignSelf="center" px="10" py="16">
-        <Heading fontWeight="extrabold" color="cyan.500" size="4xl">+2</Heading>
-        <Text fontSize="2xl" color="gray.400">Years of experience</Text>
+      <Box alignSelf="center" px="10" py="16" mb="2">
+        <Heading fontWeight="extrabold" color="cyan.500" size="4xl" mb="2">+2</Heading>
+        <Text fontWeight="bold" fontSize="2xl" color="gray.400" mb="10" ml="2">
+          Years of experience development digital tools
+        </Text>
       </Box>
-      <Box alignSelf="center" px="14" py="16">
-        <Text fontWeight="bold" fontSize="2xl">Developer and Student of Programming of Informatics Systems specialized in movile first design.
+      <Box alignSelf="center" px="12" py="8" >
+        <Text fontWeight="bold" fontSize="2xl" mt="20">
+          Developer and Student of Programming of Informatics Systems. I have experience in frontend design with React, JavaScript and CSS.
         </Text>
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
-          <Flex alignSelf="center" rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
+          <Flex alignSelf="center" alignItems={"center"} rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
           <Icon color="white" p="4" as={DiAndroid} w="24" h="24" ></Icon>
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              React Native App
+              Tiendas online
             </Text>
           </Flex>
 
-          <Flex alignSelf="center" rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
+          <Flex alignSelf="center" rounded="xl" alignItems={"center"} direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
             <Icon color="white" p="4" as={DiCodeigniter} w="24" h="24"></Icon>
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              Ecommerce Responsive
+              Apps
             </Text>
           </Flex>
 
-          <Flex alignSelf="center" rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
+          <Flex alignSelf="center" alignItems={"center"} rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
           <Icon as={DiWebplatform} color="white" h="24" w="24" p="4"></Icon>
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              Blogs
+              Data Systems
             </Text>
           </Flex>
         </Flex>

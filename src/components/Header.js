@@ -25,9 +25,9 @@ function Header(){
           <Text fontSize="5xl" fontWeight="bold" color="cyan.500" bgGradient="linear(to-r, cyan.400, blue.600, purple.800)" bgClip='text'>Gerardo Garcia</Text>
 
           {/* descripción */}
-          <Text color={isDark ? "gray.200" : "gray.500"} fontSize="2xl">Welcome user. You are not a robot<br/>Escribeme si necesitas alguna herramienta digital<br/></Text>
+          <Text mr={6} color={isDark ? "gray.200" : "gray.500"} fontSize="2xl">Necesitas una herramienta digital?<br/>Estoy para ayudarte</Text>
 
-          <Button mt={8} colorScheme="blue" onClick={() => window.open("https://www.linkedin.com/in/gera-garcia")}>Hire me</Button>
+          <Button mt={8} colorScheme="blue" onClick={() => window.open("https://www.linkedin.com/in/gera-garcia")}>Contact me</Button>
         </Box>
 
         <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"} mb={isNotSmallerScreen ? "0" : "12"} borderRadius='full' backgroundColor="transparent" boxShadow="lg" boxSize="225px" src="https://bit.ly/imag_portfolio_glitch" zIndex={2}>
