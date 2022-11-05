@@ -22,10 +22,10 @@ function Header(){
           <Text fontSize="5xl" fontWeight="semibold">Hi, I am</Text>
 
           {/* en este texto agrego un gradiente 'to right' con tres colores. bgClip ->adhiere el gradiente al texto */}
-          <Text fontSize="5xl" fontWeight="bold" color="cyan.500" bgGradient="linear(to-r, cyan.400, blue.600, purple.800)" bgClip='text'>Gerardo Garcia</Text>
+          <Text fontSize="5xl" fontWeight="bold" mr={12} color="cyan.500" bgGradient="linear(to-r, cyan.400, blue.600, purple.800)" bgClip='text'>Gerardo Garcia</Text>
 
           {/* descripción */}
-          <Text mr={6} color={isDark ? "gray.200" : "gray.500"} fontSize="2xl">Necesitas una herramienta digital?<br/>Estoy para ayudarte</Text>
+          <Text mr={6} color={isDark ? "gray.200" : "gray.500"} fontSize="2xl"></Text>
 
           <Button mt={8} colorScheme="blue" onClick={() => window.open("https://www.linkedin.com/in/gera-garcia")}>Contact me</Button>
         </Box>

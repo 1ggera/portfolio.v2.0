@@ -13,12 +13,12 @@ function Profile(){
       <Box alignSelf="center" px="10" py="16" mb="2">
         <Heading fontWeight="extrabold" color="cyan.500" size="4xl" mb="2">+2</Heading>
         <Text fontWeight="bold" fontSize="2xl" color="gray.400" mb="10" ml="2">
-          Years of experience development digital tools
+          Years of experience development frontend and studying programming systems.
         </Text>
       </Box>
       <Box alignSelf="center" px="12" py="8" >
-        <Text fontWeight="bold" fontSize="2xl" mt="20">
-          Developer and Student of Programming of Informatics Systems. I have experience in frontend design with React, JavaScript and CSS.
+        <Text fontWeight="bold" fontSize="2xl" mt="18">
+          I like work with JavaScript, React, CSS, NextJS and currently C# and SQL.
         </Text>
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
           <Flex alignSelf="center" alignItems={"center"} rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
