@@ -31,7 +31,7 @@ function Profile(){
           <Flex alignSelf="center" rounded="xl" alignItems={"center"} direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
             <Icon color="white" p="4" as={DiCodeigniter} w="24" h="24"></Icon>
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              Apps
+              Aplicaciones
             </Text>
           </Flex>
 
