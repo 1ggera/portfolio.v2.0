@@ -20,7 +20,7 @@ function Profile(){
       </Box>
       <Box alignSelf="center" px="12" py="8" >
         <Text fontWeight="bold" fontSize="2xl" mt="18">
-          Recently work with Php, MySQL, SQL, C#, CSS and HTML. <br /> I also took courses of JavaScript and React.
+          Recently I worked with Php, MySQL, SQL, C#, CSS and HTML. <br /> I also took courses of JavaScript and React.
         </Text>
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
           <Flex alignSelf="center" alignItems={"center"} rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
