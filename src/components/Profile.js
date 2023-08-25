@@ -11,20 +11,22 @@ function Profile(){
   return (
     <Flex direction={isNotSmallerScreen ? "row" : "column"} w="100%" maxWidth={{ base:"100vh", md: "130vh", lg:"130vh", xl: "130h" }} ml={"1"}>
       <Box alignSelf="center" px="10" py="16" mb="2">
-        <Heading fontWeight="extrabold" color="cyan.500" size="4xl" mb="2">+2</Heading>
+        <Heading fontWeight="extrabold" color="cyan.500" size="4xl" mb="2">+3</Heading>
         <Text fontWeight="bold" fontSize="2xl" color="gray.400" mb="10" ml="2">
-          Years of experience development frontend and studying programming systems.
+          Years of experience development frontend and backend.
+          <br />
+          I am a student in 2nd year of Informatic Systems in UTN.
         </Text>
       </Box>
       <Box alignSelf="center" px="12" py="8" >
         <Text fontWeight="bold" fontSize="2xl" mt="18">
-          I like work with JavaScript, React, CSS, NextJS and currently C# and SQL.
+          Recently work with Php, MySQL, SQL, C#, CSS and HTML. <br /> I also took courses of JavaScript and React.
         </Text>
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
           <Flex alignSelf="center" alignItems={"center"} rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "cyan.400", }}>
           <Icon color="white" p="4" as={DiAndroid} w="24" h="24" ></Icon>
-            <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-              Tiendas online
+            <Text color="black" p="4" fontSize="xl" fontWeight="semibold" textAlign={'center'}>
+              Websites
             </Text>
           </Flex>
 
